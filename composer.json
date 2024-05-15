@@ -1,0 +1,22 @@
+{
+  "name": "zxf5115/laravel-generate-ppt",
+  "description": "A Laravel Plugin For Generating PPT Documents",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Zhang XiaoFei",
+      "email": "1326336909@qq.com"
+    }
+  ],
+  "minimum-stability": "dev",
+  "require": {
+    "php": ">=7.4",
+    "phpoffice/phppresentation": "^1.0.0",
+  },
+  "autoload": {
+    "psr-4": {
+      "Zxf5115\\Laravel\\Ppt\\": "src/"
+    }
+  }
+}
